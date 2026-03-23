@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Antique, tactile palette - no neon */
+  --color-gold: #a67c3d;
+  --color-gold-muted: #8b7355;
+  --color-silver: #9ca3af;
+  --color-charcoal: #2d2a26;
+  --color-ink: #1a1816;
+  --color-maroon: #5c2a2a;
+  --color-cream: #e8e0d5;
+  --color-bg: #1c1917;
+}
+
+/* Rarity: muted borders only, no glow */
+.rarity-common {
+  @apply border border-stone-600/60;
+}
+
+.rarity-rare {
+  @apply border border-stone-500/50;
+}
+
+.rarity-epic {
+  @apply border border-amber-900/50;
+}
+
+.rarity-legendary {
+  @apply border border-amber-700/60;
+}
+
+/* Linen / canvas texture overlay */
+.texture-linen {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+body {
+  @apply antialiased;
+  background: var(--color-bg);
+  min-height: 100vh;
+  color: var(--color-cream);
+}
+
+/* 3D hover card effect inspired by daisyUI hover-3d */
+.hover-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.hover-3d-card {
+  transform-style: preserve-3d;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  will-change: transform;
+}
+
+.hover-3d:hover .hover-3d-card {
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.36);
+}
+
+.hover-3d-zone {
+  position: absolute;
+  z-index: 10;
+}
+
+.hover-3d-zone.zone-1 {
+  top: 0;
+  left: 0;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-2 {
+  top: 0;
+  left: 33.3333%;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-3 {
+  top: 0;
+  left: 66.6666%;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-4 {
+  top: 33.3333%;
+  left: 0;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-5 {
+  top: 33.3333%;
+  left: 66.6666%;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-6 {
+  top: 66.6666%;
+  left: 0;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-7 {
+  top: 66.6666%;
+  left: 33.3333%;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-8 {
+  top: 66.6666%;
+  left: 66.6666%;
+  width: 33.3333%;
+  height: 33.3333%;
+}
+
+.hover-3d-zone.zone-1:hover ~ .hover-3d-card {
+  transform: rotateX(6deg) rotateY(-6deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-2:hover ~ .hover-3d-card {
+  transform: rotateX(7deg) rotateY(0deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-3:hover ~ .hover-3d-card {
+  transform: rotateX(6deg) rotateY(6deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-4:hover ~ .hover-3d-card {
+  transform: rotateX(0deg) rotateY(-7deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-5:hover ~ .hover-3d-card {
+  transform: rotateX(0deg) rotateY(7deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-6:hover ~ .hover-3d-card {
+  transform: rotateX(-6deg) rotateY(-6deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-7:hover ~ .hover-3d-card {
+  transform: rotateX(-7deg) rotateY(0deg) translateZ(6px);
+}
+
+.hover-3d-zone.zone-8:hover ~ .hover-3d-card {
+  transform: rotateX(-6deg) rotateY(6deg) translateZ(6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-3d-card {
+    transition: none;
+  }
+
+  .hover-3d-zone.zone-1:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-2:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-3:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-4:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-5:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-6:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-7:hover ~ .hover-3d-card,
+  .hover-3d-zone.zone-8:hover ~ .hover-3d-card {
+    transform: none;
+  }
+}

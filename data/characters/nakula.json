@@ -1,0 +1,28 @@
+{
+  "id": "nakula",
+  "name": "Nakula",
+  "aliases": ["Sahadeva's twin", "Nakula"],
+  "side": "Pandava",
+  "archetype": "Support",
+  "description_short": "The fourth Pandava, famed for his beauty, swordsmanship, and horsemanship.",
+  "description_long": "Nakula, the fourth Pandava, was born to Madri and the Ashvin twins. He was renowned as the most handsome man of his era and excelled in swordsmanship and the care of horses. Alongside his twin Sahadeva, he served as a trusted support to his elder brothers. Though less prominent in the central narrative, Nakula's skills in healing, animal husbandry, and combat made him invaluable to the Pandava cause.",
+  "attributes": {
+    "strength": 70,
+    "skill": 85,
+    "intelligence": 75,
+    "strategy": 70,
+    "morality": 88
+  },
+  "weapons": [],
+  "defenses": ["Agility", "Swift reflexes"],
+  "special_abilities": ["Swordsmanship", "Horsemanship", "Healing arts"],
+  "notable_events": ["Served as chief of cavalry", "Survived the exile", "Fought in Kurukshetra"],
+  "relationships": [
+    { "name": "Sahadeva", "relation": "family" },
+    { "name": "Madri", "relation": "family" },
+    { "name": "Yudhishthira", "relation": "family" }
+  ],
+  "tags": ["sword", "horse", "pandava", "twin"],
+  "rarity": "rare",
+  "aura": "Soft silver-blue, gentle"
+}

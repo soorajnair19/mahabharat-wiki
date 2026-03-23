@@ -1,0 +1,30 @@
+{
+  "id": "draupadi",
+  "name": "Draupadi",
+  "aliases": ["Panchali"],
+  "side": "Pandava",
+  "archetype": "Support",
+  "description_short": "Queen of the Pandavas and central figure in the epic.",
+  "description_long": "Draupadi, wife of the five Pandavas, played a crucial role in shaping the course of the Mahabharata through her strength and resilience.",
+  "attributes": {
+    "strength": 55,
+    "skill": 60,
+    "intelligence": 88,
+    "strategy": 85,
+    "morality": 92
+  },
+  "weapons": [],
+  "defenses": ["Divine protection (Krishna)"],
+  "special_abilities": ["Unbreakable will", "Influence on key events"],
+  "notable_events": [
+    "Draupadi vastraharan",
+    "Marriage to five Pandavas"
+  ],
+  "relationships": [
+    { "name": "Pandavas", "relation": "family" },
+    { "name": "Krishna", "relation": "ally" }
+  ],
+  "tags": ["queen", "resilience"],
+  "rarity": "legendary",
+  "aura": "sacred_fire"
+}

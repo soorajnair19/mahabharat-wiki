@@ -1,0 +1,15 @@
+{
+  "id": "pashupatastra",
+  "name": "Pashupatastra",
+  "type": "Astra",
+  "element": "Divine",
+  "description": "The weapon of Lord Shiva, the most destructive personal weapon of the divine trinity. It can be discharged by the mind, eyes, words, or a bow. When invoked, it manifests devastating power that cannot be resisted by any mortal or lesser divine being.",
+  "power_level": 10,
+  "rarity": "legendary",
+  "used_by": ["arjuna"],
+  "special_effects": ["Multimodal discharge", "Unstoppable force", "Destroys all creation in its path"],
+  "limitations": ["Must never be used against lesser enemies", "Krishna prevented Arjuna from using it at Kurukshetra"],
+  "invocation": "Granted by Lord Shiva after Arjuna's penance at Indrakeeladri",
+  "counter_weapons": [],
+  "tags": ["astra", "shiva", "divine", "ultimate"]
+}

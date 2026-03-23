@@ -1,0 +1,29 @@
+{
+  "id": "shakuni",
+  "name": "Shakuni",
+  "aliases": [],
+  "side": "Kaurava",
+  "archetype": "Strategist",
+  "description_short": "Master manipulator behind the war.",
+  "description_long": "Shakuni orchestrated the downfall of the Pandavas through deceit and cunning.",
+  "attributes": {
+    "strength": 50,
+    "skill": 60,
+    "intelligence": 95,
+    "strategy": 98,
+    "morality": 10
+  },
+  "weapons": [],
+  "defenses": [],
+  "special_abilities": ["Manipulation", "Loaded dice"],
+  "notable_events": [
+    "Rigged dice game",
+    "Instigated conflict"
+  ],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "ally" }
+  ],
+  "tags": ["manipulator"],
+  "rarity": "epic",
+  "aura": "chaos_mind"
+}

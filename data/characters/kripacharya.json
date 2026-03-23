@@ -1,0 +1,26 @@
+{
+  "id": "kripacharya",
+  "name": "Kripacharya",
+  "aliases": ["Kripa"],
+  "side": "Kaurava",
+  "archetype": "Sage",
+  "description_short": "Wise teacher and survivor of the war.",
+  "description_long": "Kripacharya was one of the few who survived the war and remained a respected teacher.",
+  "attributes": {
+    "strength": 75,
+    "skill": 85,
+    "intelligence": 88,
+    "strategy": 85,
+    "morality": 85
+  },
+  "weapons": [],
+  "defenses": [],
+  "special_abilities": ["Longevity"],
+  "notable_events": [
+    "Survived Kurukshetra war"
+  ],
+  "relationships": [],
+  "tags": ["sage"],
+  "rarity": "rare",
+  "aura": "calm_wisdom"
+}

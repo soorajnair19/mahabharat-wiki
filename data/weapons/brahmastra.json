@@ -1,0 +1,15 @@
+{
+  "id": "brahmastra",
+  "name": "Brahmastra",
+  "type": "Astra",
+  "element": "Divine",
+  "description": "The most powerful astra in Hindu mythology, created by Lord Brahma. It is invoked through sacred mantras and manifests as a projectile of tremendous destructive power, capable of destroying entire regions and neutralizing other celestial weapons.",
+  "power_level": 10,
+  "rarity": "legendary",
+  "used_by": ["arjuna", "ashwatthama"],
+  "special_effects": ["Mass destruction", "Neutralizes other astras", "Cannot be countered by conventional means"],
+  "limitations": ["Requires precise invocation", "Must be used with restraint", "Can cause cosmic imbalance"],
+  "invocation": "Om Brahmastraaya Namah",
+  "counter_weapons": ["brahmashira", "brahmadanda"],
+  "tags": ["astra", "brahma", "divine", "ultimate"]
+}

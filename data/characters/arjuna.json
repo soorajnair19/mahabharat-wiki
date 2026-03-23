@@ -1,0 +1,28 @@
+{
+  "id": "arjuna",
+  "name": "Arjuna",
+  "aliases": ["Partha", "Phalguna", "Dhananjaya", "Kiriti"],
+  "side": "Pandava",
+  "archetype": "Warrior",
+  "description_short": "The peerless archer and third Pandava, favored disciple of Lord Krishna.",
+  "description_long": "Arjuna, the third of the five Pandava brothers, is celebrated as the greatest archer of his time. Born to Kunti and the god Indra, he possessed divine skill and was the wielder of the legendary bow Gandiva. His moral dilemma on the battlefield of Kurukshetra led to the teachings of the Bhagavad Gita. Arjuna's prowess in archery, his mastery of divine astras, and his unwavering devotion to dharma make him one of the central figures of the Mahabharat.",
+  "attributes": {
+    "strength": 80,
+    "skill": 100,
+    "intelligence": 85,
+    "strategy": 90,
+    "morality": 90
+  },
+  "weapons": ["gandiva", "brahmastra", "pashupatastra"],
+  "defenses": ["Divine armor", "Kavacha"],
+  "special_abilities": ["Divine archery", "Astra invocation", "Chariot combat"],
+  "notable_events": ["Won Draupadi in her swayamvara", "Received Bhagavad Gita from Krishna", "Defeated Karna at Kurukshetra"],
+  "relationships": [
+    { "name": "Krishna", "relation": "mentor" },
+    { "name": "Draupadi", "relation": "family" },
+    { "name": "Karna", "relation": "enemy" }
+  ],
+  "tags": ["archer", "divine", "pandava", "protagonist"],
+  "rarity": "legendary",
+  "aura": "Radiant golden, tinged with divine blue"
+}

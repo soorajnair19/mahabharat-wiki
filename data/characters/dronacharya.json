@@ -1,0 +1,29 @@
+{
+  "id": "dronacharya",
+  "name": "Dronacharya",
+  "aliases": ["Drona"],
+  "side": "Kaurava",
+  "archetype": "Strategist",
+  "description_short": "Teacher of both Pandavas and Kauravas.",
+  "description_long": "Drona was a master of warfare and trained the greatest warriors of the era.",
+  "attributes": {
+    "strength": 85,
+    "skill": 92,
+    "intelligence": 90,
+    "strategy": 92,
+    "morality": 75
+  },
+  "weapons": [],
+  "defenses": [],
+  "special_abilities": ["Weapon mastery"],
+  "notable_events": [
+    "Trained Arjuna",
+    "Killed during war"
+  ],
+  "relationships": [
+    { "name": "Ashwatthama", "relation": "family" }
+  ],
+  "tags": ["guru"],
+  "rarity": "epic",
+  "aura": "disciplined_mind"
+}

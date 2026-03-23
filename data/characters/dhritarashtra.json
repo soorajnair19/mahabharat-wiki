@@ -1,0 +1,29 @@
+{
+  "id": "dhritarashtra",
+  "name": "Dhritarashtra",
+  "aliases": [],
+  "side": "Kaurava",
+  "archetype": "Leader",
+  "description_short": "Blind king of Hastinapur.",
+  "description_long": "Dhritarashtra, though wise, was blinded by his love for his sons, leading to catastrophic consequences.",
+  "attributes": {
+    "strength": 60,
+    "skill": 60,
+    "intelligence": 85,
+    "strategy": 75,
+    "morality": 65
+  },
+  "weapons": [],
+  "defenses": ["Physical strength despite blindness"],
+  "special_abilities": ["Enhanced hearing"],
+  "notable_events": [
+    "Allowed dice game",
+    "Failed to stop war"
+  ],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "family" }
+  ],
+  "tags": ["king", "blind"],
+  "rarity": "rare",
+  "aura": "inner_conflict"
+}

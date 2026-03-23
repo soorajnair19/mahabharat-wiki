@@ -1,0 +1,15 @@
+{
+  "id": "gada",
+  "name": "Gada",
+  "type": "Shastra",
+  "element": "Physical",
+  "description": "The divine mace wielded by Bhima, a heavy bludgeoning weapon of immense weight. Forged with celestial craftsmanship, it could crush armor, fortifications, and enemies with a single blow. Bhima's Gada was said to be unmatched in the hands of any mortal.",
+  "power_level": 8,
+  "rarity": "epic",
+  "used_by": ["bhima", "duryodhana"],
+  "special_effects": ["Crushing impact", "Armor penetration", "Devastating swing"],
+  "limitations": ["Requires extraordinary strength", "Close-range only"],
+  "invocation": "N/A – Physical weapon",
+  "counter_weapons": [],
+  "tags": ["mace", "bludgeon", "close-combat", "strength"]
+}

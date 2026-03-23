@@ -1,0 +1,28 @@
+{
+  "id": "yudhishthira",
+  "name": "Yudhishthira",
+  "aliases": ["Dharmaraja", "Ajatashatru", "Panduputra"],
+  "side": "Pandava",
+  "archetype": "Strategist",
+  "description_short": "The eldest Pandava and rightful heir to Hastinapura, embodiment of dharma and righteousness.",
+  "description_long": "Yudhishthira, the firstborn of the Pandavas, was born to Kunti and the god of death, Dharma (Yama). His unwavering commitment to truth and righteous conduct earned him the title Dharmaraja. Though a skilled warrior, his true strength lay in strategy, diplomacy, and moral authority. His adherence to dharma was both his greatest virtue and, at times, a source of conflict with his more pragmatic brothers.",
+  "attributes": {
+    "strength": 65,
+    "skill": 70,
+    "intelligence": 90,
+    "strategy": 100,
+    "morality": 100
+  },
+  "weapons": [],
+  "defenses": ["Moral authority", "Divine protection"],
+  "special_abilities": ["Dice expertise", "Diplomatic prowess", "Strategic planning"],
+  "notable_events": ["Lost kingdom in dice game", "Performed Rajasuya sacrifice", "Ascended to heaven in mortal form"],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "enemy" },
+    { "name": "Draupadi", "relation": "family" },
+    { "name": "Bhishma", "relation": "mentor" }
+  ],
+  "tags": ["dharma", "king", "pandava", "strategist"],
+  "rarity": "epic",
+  "aura": "Steady golden-white, serene"
+}

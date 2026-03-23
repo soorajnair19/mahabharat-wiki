@@ -1,0 +1,29 @@
+{
+  "id": "pandu",
+  "name": "Pandu",
+  "aliases": [],
+  "side": "Pandava",
+  "archetype": "Leader",
+  "description_short": "Father of the Pandavas.",
+  "description_long": "King Pandu was cursed to die if he engaged in intimacy, leading to the divine birth of the Pandavas.",
+  "attributes": {
+    "strength": 75,
+    "skill": 70,
+    "intelligence": 85,
+    "strategy": 80,
+    "morality": 90
+  },
+  "weapons": [],
+  "defenses": [],
+  "special_abilities": ["Leadership"],
+  "notable_events": [
+    "Cursed by sage Kindama",
+    "Fathered Pandavas through divine intervention"
+  ],
+  "relationships": [
+    { "name": "Pandavas", "relation": "family" }
+  ],
+  "tags": ["king"],
+  "rarity": "rare",
+  "aura": "royal_lineage"
+}

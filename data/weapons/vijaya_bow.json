@@ -1,0 +1,15 @@
+{
+  "id": "vijaya_bow",
+  "name": "Vijaya",
+  "type": "Shastra",
+  "element": "Divine",
+  "description": "The celestial bow of Karna, said to guarantee victory to its wielder. It was created by Vishwakarma.",
+  "power_level": 9,
+  "rarity": "legendary",
+  "used_by": ["karna"],
+  "special_effects": ["Victory guarantee", "Divine accuracy", "Enhanced arrows"],
+  "limitations": ["Requires supreme skill"],
+  "invocation": "N/A – Physical weapon",
+  "counter_weapons": [],
+  "tags": ["bow", "celestial", "karna"]
+}

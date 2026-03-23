@@ -1,0 +1,28 @@
+{
+  "id": "bhima",
+  "name": "Bhima",
+  "aliases": ["Vrikodara", "Ballava", "Bhimasena"],
+  "side": "Pandava",
+  "archetype": "Warrior",
+  "description_short": "The mightiest of the Pandavas, known for his colossal strength and mastery of the Gada.",
+  "description_long": "Bhima, the second Pandava, was born to Kunti and the wind god Vayu. His extraordinary physical strength and prowess with the mace (Gada) made him the most formidable close-combat warrior of the age. He was instrumental in defeating many Kaurava champions, including Duryodhana. Bhima's fierce loyalty to his brothers and his unyielding spirit embody the raw power of the Pandava cause.",
+  "attributes": {
+    "strength": 100,
+    "skill": 80,
+    "intelligence": 65,
+    "strategy": 70,
+    "morality": 85
+  },
+  "weapons": ["gada"],
+  "defenses": ["Raw endurance", "Divine resilience"],
+  "special_abilities": ["Superhuman strength", "Gada mastery", "Wrestling"],
+  "notable_events": ["Killed Duryodhana in the final mace duel", "Slayed all hundred Kauravas", "Defeated Bakasura"],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "enemy" },
+    { "name": "Hidimbi", "relation": "family" },
+    { "name": "Yudhishthira", "relation": "family" }
+  ],
+  "tags": ["strength", "mace", "pandava", "close-combat"],
+  "rarity": "legendary",
+  "aura": "Fiery red, roiling like flames"
+}

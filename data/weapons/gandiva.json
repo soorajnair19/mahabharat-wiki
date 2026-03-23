@@ -1,0 +1,15 @@
+{
+  "id": "gandiva",
+  "name": "Gandiva",
+  "type": "Shastra",
+  "element": "Physical",
+  "description": "The celestial bow of divine origin, created by Brahma. It was said to be indestructible and capable of firing hundreds of arrows per minute. The bow resonated with a thunderous sound when drawn and was adorned with celestial ornaments.",
+  "power_level": 9,
+  "rarity": "legendary",
+  "used_by": ["arjuna"],
+  "special_effects": ["Unbreakable", "Rapid fire", "Divine accuracy", "Thunderous draw"],
+  "limitations": ["Required immense strength to wield", "Bonded to worthy archer"],
+  "invocation": "Bestowed by Varuna to Arjuna at the burning of Khandava forest",
+  "counter_weapons": [],
+  "tags": ["bow", "celestial", "archery", "divine"]
+}

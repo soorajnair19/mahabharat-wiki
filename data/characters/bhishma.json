@@ -1,0 +1,29 @@
+{
+  "id": "bhishma",
+  "name": "Bhishma",
+  "aliases": [],
+  "side": "Kaurava",
+  "archetype": "Sage",
+  "description_short": "Grand patriarch and undefeated warrior.",
+  "description_long": "Bhishma was bound by his vow and fought for the Kauravas despite knowing the righteousness of the Pandavas.",
+  "attributes": {
+    "strength": 95,
+    "skill": 95,
+    "intelligence": 92,
+    "strategy": 90,
+    "morality": 95
+  },
+  "weapons": [],
+  "defenses": ["Iccha mrityu"],
+  "special_abilities": ["Cannot die at will"],
+  "notable_events": [
+    "Took vow of celibacy",
+    "Fell on bed of arrows"
+  ],
+  "relationships": [
+    { "name": "Kuru dynasty", "relation": "family" }
+  ],
+  "tags": ["legend", "vow"],
+  "rarity": "legendary",
+  "aura": "eternal_oath"
+}

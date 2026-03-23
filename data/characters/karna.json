@@ -1,0 +1,30 @@
+{
+  "id": "karna",
+  "name": "Karna",
+  "aliases": ["Radheya"],
+  "side": "Kaurava",
+  "archetype": "Warrior",
+  "description_short": "Tragic hero and greatest rival of Arjuna.",
+  "description_long": "Karna, born to Kunti, was a peerless warrior known for his generosity and loyalty to Duryodhana.",
+  "attributes": {
+    "strength": 92,
+    "skill": 95,
+    "intelligence": 85,
+    "strategy": 88,
+    "morality": 80
+  },
+  "weapons": ["vijaya_bow", "vasavi_shakti"],
+  "defenses": ["Divine armor (lost later)"],
+  "special_abilities": ["Unmatched archery", "Charity"],
+  "notable_events": [
+    "Gave away armor",
+    "Killed by Arjuna"
+  ],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "ally" },
+    { "name": "Kunti", "relation": "family" }
+  ],
+  "tags": ["tragic", "warrior"],
+  "rarity": "legendary",
+  "aura": "solar_valor"
+}

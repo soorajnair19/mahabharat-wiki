@@ -1,0 +1,15 @@
+{
+  "id": "vasavi_shakti",
+  "name": "Vasavi Shakti",
+  "type": "Astra",
+  "element": "Divine",
+  "description": "The invincible spear gifted by Indra to Karna in exchange for his divine armor. It can be used only once but guarantees the death of its target.",
+  "power_level": 10,
+  "rarity": "legendary",
+  "used_by": ["karna"],
+  "special_effects": ["One-time use", "Guaranteed kill", "Unblockable"],
+  "limitations": ["Single use only", "Karna used it on Ghatotkacha"],
+  "invocation": "Bestowed by Indra in exchange for Kavacha-Kundala",
+  "counter_weapons": [],
+  "tags": ["astra", "indra", "spear", "divine"]
+}

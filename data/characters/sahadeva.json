@@ -1,0 +1,28 @@
+{
+  "id": "sahadeva",
+  "name": "Sahadeva",
+  "aliases": ["Nakula's twin", "Sahadeva"],
+  "side": "Pandava",
+  "archetype": "Support",
+  "description_short": "The fifth Pandava, wisest of the brothers, master of astronomy and diplomacy.",
+  "description_long": "Sahadeva, the youngest Pandava, was born to Madri and the Ashvin twins. He was known for his vast knowledge of the Vedas, astronomy, and statecraft. Prophecy foretold that he knew the future but was cursed to die if he spoke of it unbidden. Sahadeva's wisdom and counsel were sought by his brothers, and his skills in combat, though secondary to his intellect, made him a capable warrior on the battlefield.",
+  "attributes": {
+    "strength": 60,
+    "skill": 75,
+    "intelligence": 100,
+    "strategy": 90,
+    "morality": 90
+  },
+  "weapons": [],
+  "defenses": ["Foresight", "Knowledge"],
+  "special_abilities": ["Astrology", "Statecraft", "Vedic wisdom"],
+  "notable_events": ["Knew of Kurukshetra outcome", "Served as royal advisor", "Fought in the great war"],
+  "relationships": [
+    { "name": "Nakula", "relation": "family" },
+    { "name": "Madri", "relation": "family" },
+    { "name": "Krishna", "relation": "ally" }
+  ],
+  "tags": ["wisdom", "astrology", "pandava", "twin"],
+  "rarity": "rare",
+  "aura": "Calm indigo, star-speckled"
+}

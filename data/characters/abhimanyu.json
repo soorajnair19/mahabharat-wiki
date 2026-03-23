@@ -1,0 +1,30 @@
+{
+  "id": "abhimanyu",
+  "name": "Abhimanyu",
+  "aliases": [],
+  "side": "Pandava",
+  "archetype": "Warrior",
+  "description_short": "Young warrior known for breaking the Chakravyuha.",
+  "description_long": "Abhimanyu, son of Arjuna, displayed immense bravery by entering the Chakravyuha formation, though he was ultimately killed unfairly.",
+  "attributes": {
+    "strength": 85,
+    "skill": 90,
+    "intelligence": 78,
+    "strategy": 80,
+    "morality": 90
+  },
+  "weapons": [],
+  "defenses": ["Agility"],
+  "special_abilities": ["Chakravyuha entry knowledge"],
+  "notable_events": [
+    "Entered Chakravyuha",
+    "Killed by multiple warriors unfairly"
+  ],
+  "relationships": [
+    { "name": "Arjuna", "relation": "family" },
+    { "name": "Subhadra", "relation": "family" }
+  ],
+  "tags": ["bravery", "youth"],
+  "rarity": "epic",
+  "aura": "valiant_spirit"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "duryodhana",
+  "name": "Duryodhana",
+  "aliases": [],
+  "side": "Kaurava",
+  "archetype": "Warrior",
+  "description_short": "Ambitious prince and main antagonist.",
+  "description_long": "Duryodhana's envy and ambition drove the conflict of the Mahabharata.",
+  "attributes": {
+    "strength": 90,
+    "skill": 85,
+    "intelligence": 80,
+    "strategy": 85,
+    "morality": 40
+  },
+  "weapons": ["gada"],
+  "defenses": ["Strong body"],
+  "special_abilities": ["Mace combat mastery"],
+  "notable_events": [
+    "Initiated dice game",
+    "Fought Bhima"
+  ],
+  "relationships": [
+    { "name": "Karna", "relation": "ally" }
+  ],
+  "tags": ["villain", "prince"],
+  "rarity": "epic",
+  "aura": "dark_ambition"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "sudarshana_chakra",
+  "name": "Sudarshana Chakra",
+  "type": "Astra",
+  "element": "Divine",
+  "description": "The divine discus of Lord Vishnu, wielded by Krishna. It returns to the wielder after striking and cannot be stopped by any weapon.",
+  "power_level": 10,
+  "rarity": "legendary",
+  "used_by": ["krishna"],
+  "special_effects": ["Returns to wielder", "Unstoppable", "Divine precision"],
+  "limitations": ["Only the worthy may wield it"],
+  "invocation": "Granted by Vishnu to Krishna",
+  "counter_weapons": [],
+  "tags": ["chakra", "vishnu", "divine"]
+}

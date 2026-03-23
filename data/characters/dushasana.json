@@ -1,0 +1,29 @@
+{
+  "id": "dushasana",
+  "name": "Dushasana",
+  "aliases": [],
+  "side": "Kaurava",
+  "archetype": "Warrior",
+  "description_short": "Brother of Duryodhana known for cruelty.",
+  "description_long": "Dushasana played a key role in the humiliation of Draupadi and was later killed by Bhima.",
+  "attributes": {
+    "strength": 80,
+    "skill": 75,
+    "intelligence": 65,
+    "strategy": 70,
+    "morality": 20
+  },
+  "weapons": [],
+  "defenses": [],
+  "special_abilities": [],
+  "notable_events": [
+    "Draupadi vastraharan",
+    "Killed by Bhima"
+  ],
+  "relationships": [
+    { "name": "Duryodhana", "relation": "family" }
+  ],
+  "tags": ["cruel"],
+  "rarity": "rare",
+  "aura": "bloodlust"
+}
