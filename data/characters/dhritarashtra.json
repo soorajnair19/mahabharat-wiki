@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Leader",
   "description_short": "Blind king of Hastinapur.",
-  "description_long": "Dhritarashtra, though wise, was blinded by his love for his sons, leading to catastrophic consequences.",
+  "description_long": "Dhritarashtra, the blind king of Hastinapura, stood at the political and moral center of the Kuru crisis. Though knowledgeable in governance and aware of the virtues of the Pandavas, he remained emotionally captive to his son Duryodhana's ambitions. His inability to restrain injustice in the court, especially during the dice game and Draupadi's humiliation, allowed private attachment to overrule royal responsibility. Dhritarashtra thus became a tragic symbol of failed kingship: not evil by intent, but indecisive at crucial moments, and ultimately forced to witness the destruction of his entire lineage as the consequence of choices he did not prevent.",
   "attributes": {
     "strength": 60,
     "skill": 60,
@@ -14,16 +14,26 @@
     "morality": 65
   },
   "weapons": [],
-  "defenses": ["Physical strength despite blindness"],
-  "special_abilities": ["Enhanced hearing"],
+  "defenses": [
+    "Physical strength despite blindness"
+  ],
+  "special_abilities": [
+    "Enhanced hearing"
+  ],
   "notable_events": [
     "Allowed dice game",
     "Failed to stop war"
   ],
   "relationships": [
-    { "name": "Duryodhana", "relation": "family" }
+    {
+      "name": "Duryodhana",
+      "relation": "family"
+    }
   ],
-  "tags": ["king", "blind"],
+  "tags": [
+    "king",
+    "blind"
+  ],
   "rarity": "rare",
   "aura": "inner_conflict"
 }

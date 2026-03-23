@@ -5,7 +5,7 @@
   "side": "Pandava",
   "archetype": "Warrior",
   "description_short": "Young warrior known for breaking the Chakravyuha.",
-  "description_long": "Abhimanyu, son of Arjuna, displayed immense bravery by entering the Chakravyuha formation, though he was ultimately killed unfairly.",
+  "description_long": "Abhimanyu, son of Arjuna and Subhadra, embodied youthful valor at its purest. Trained in warfare from childhood and exposed to advanced battle formations even before birth, he entered the Kurukshetra war as one of the Pandava side's most promising young commanders. His most famous feat came on the thirteenth day, when he penetrated Drona's Chakravyuha formation despite knowing only how to enter and not exit it. Surrounded and attacked by multiple veteran warriors in violation of fair combat, Abhimanyu fought with extraordinary resilience before being slain, and his death became a moral turning point that intensified the Pandavas' resolve.",
   "attributes": {
     "strength": 85,
     "skill": 90,
@@ -14,17 +14,30 @@
     "morality": 90
   },
   "weapons": [],
-  "defenses": ["Agility"],
-  "special_abilities": ["Chakravyuha entry knowledge"],
+  "defenses": [
+    "Agility"
+  ],
+  "special_abilities": [
+    "Chakravyuha entry knowledge"
+  ],
   "notable_events": [
     "Entered Chakravyuha",
     "Killed by multiple warriors unfairly"
   ],
   "relationships": [
-    { "name": "Arjuna", "relation": "family" },
-    { "name": "Subhadra", "relation": "family" }
+    {
+      "name": "Arjuna",
+      "relation": "family"
+    },
+    {
+      "name": "Subhadra",
+      "relation": "family"
+    }
   ],
-  "tags": ["bravery", "youth"],
+  "tags": [
+    "bravery",
+    "youth"
+  ],
   "rarity": "epic",
   "aura": "valiant_spirit"
 }

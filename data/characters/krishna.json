@@ -1,11 +1,15 @@
 {
   "id": "krishna",
   "name": "Krishna",
-  "aliases": ["Vasudeva", "Madhava", "Govinda"],
+  "aliases": [
+    "Vasudeva",
+    "Madhava",
+    "Govinda"
+  ],
   "side": "Neutral",
   "archetype": "Sage",
   "description_short": "Divine guide and charioteer of Arjuna.",
-  "description_long": "Krishna, an incarnation of Vishnu, served as Arjuna's charioteer and strategist, guiding the Pandavas to victory through wisdom and divine insight.",
+  "description_long": "Krishna, revered as an incarnation of Vishnu, is the central spiritual and strategic force of the Mahabharata. Though he vowed not to wield weapons in the war, his counsel, diplomacy, and battlefield intelligence shaped nearly every major turning point in favor of the Pandavas. As Arjuna's charioteer, he delivered the Bhagavad Gita, reframing war, duty, and action through a profound philosophical lens that transcends the immediate conflict. Krishna's role blends statesman, friend, and divine guide: he intervenes not merely to secure victory, but to restore cosmic and moral order when adharma dominates political life.",
   "attributes": {
     "strength": 85,
     "skill": 90,
@@ -13,19 +17,37 @@
     "strategy": 100,
     "morality": 95
   },
-  "weapons": ["sudarshana_chakra"],
-  "defenses": ["Divine protection"],
-  "special_abilities": ["Divine vision", "Strategic mastery", "Time manipulation"],
+  "weapons": [
+    "sudarshana_chakra"
+  ],
+  "defenses": [
+    "Divine protection"
+  ],
+  "special_abilities": [
+    "Divine vision",
+    "Strategic mastery",
+    "Time manipulation"
+  ],
   "notable_events": [
     "Delivered Bhagavad Gita",
     "Acted as Arjuna's charioteer",
     "Orchestrated key war strategies"
   ],
   "relationships": [
-    { "name": "Arjuna", "relation": "mentor" },
-    { "name": "Pandavas", "relation": "ally" }
+    {
+      "name": "Arjuna",
+      "relation": "mentor"
+    },
+    {
+      "name": "Pandavas",
+      "relation": "ally"
+    }
   ],
-  "tags": ["divine", "strategist", "avatar"],
+  "tags": [
+    "divine",
+    "strategist",
+    "avatar"
+  ],
   "rarity": "legendary",
   "aura": "cosmic_divinity",
   "divine": true

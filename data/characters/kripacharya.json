@@ -1,11 +1,13 @@
 {
   "id": "kripacharya",
   "name": "Kripacharya",
-  "aliases": ["Kripa"],
+  "aliases": [
+    "Kripa"
+  ],
   "side": "Kaurava",
   "archetype": "Sage",
   "description_short": "Wise teacher and survivor of the war.",
-  "description_long": "Kripacharya was one of the few who survived the war and remained a respected teacher.",
+  "description_long": "Kripacharya, a lifelong preceptor of the Kuru court, was respected for discipline, scholarship, and mastery of arms. As one of the few elders accepted by both camps, he occupied a rare position of continuity amid escalating political fracture. Though aligned with the Kaurava side in war, Kripa is often portrayed as measured and restrained, less driven by personal vendetta than by institutional duty. His survival after Kurukshetra and continued role as teacher to the next generation symbolize the persistence of martial knowledge and state tradition beyond the catastrophe that consumed nearly all principal warriors.",
   "attributes": {
     "strength": 75,
     "skill": 85,
@@ -15,12 +17,16 @@
   },
   "weapons": [],
   "defenses": [],
-  "special_abilities": ["Longevity"],
+  "special_abilities": [
+    "Longevity"
+  ],
   "notable_events": [
     "Survived Kurukshetra war"
   ],
   "relationships": [],
-  "tags": ["sage"],
+  "tags": [
+    "sage"
+  ],
   "rarity": "rare",
   "aura": "calm_wisdom"
 }

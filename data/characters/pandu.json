@@ -5,7 +5,7 @@
   "side": "Pandava",
   "archetype": "Leader",
   "description_short": "Father of the Pandavas.",
-  "description_long": "King Pandu was cursed to die if he engaged in intimacy, leading to the divine birth of the Pandavas.",
+  "description_long": "Pandu, king of Hastinapura and father of the Pandavas, stands at the origin of the epic's dynastic tension. A capable ruler and formidable warrior in his youth, he was cursed to die if he approached his wives with desire, forcing him into forest exile and a life marked by renunciation and regret. Through divine invocation, his queens Kunti and Madri gave birth to sons who would become the central figures of Kurukshetra. Pandu's early death left his children vulnerable within a contested royal court, and his absence shaped the succession struggle that eventually erupted into civil war.",
   "attributes": {
     "strength": 75,
     "skill": 70,
@@ -15,15 +15,22 @@
   },
   "weapons": [],
   "defenses": [],
-  "special_abilities": ["Leadership"],
+  "special_abilities": [
+    "Leadership"
+  ],
   "notable_events": [
     "Cursed by sage Kindama",
     "Fathered Pandavas through divine intervention"
   ],
   "relationships": [
-    { "name": "Pandavas", "relation": "family" }
+    {
+      "name": "Pandavas",
+      "relation": "family"
+    }
   ],
-  "tags": ["king"],
+  "tags": [
+    "king"
+  ],
   "rarity": "rare",
   "aura": "royal_lineage"
 }

@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Warrior",
   "description_short": "Ambitious prince and main antagonist.",
-  "description_long": "Duryodhana's envy and ambition drove the conflict of the Mahabharata.",
+  "description_long": "Duryodhana, eldest of the Kauravas, was a warrior of great ability whose defining traits were pride, resentment, and political ambition. Convinced that the kingdom belonged to him by right, he viewed the Pandavas as existential rivals and spent years undermining them through plots, humiliation, and manipulation of court politics. Yet he was not without complexity: he inspired fierce loyalty, most notably in Karna, and displayed courage on the battlefield. His refusal to concede even a minimal settlement made war inevitable, and his final duel with Bhima closed the arc of a prince whose strengths were real but eclipsed by envy and obstinacy.",
   "attributes": {
     "strength": 90,
     "skill": 85,
@@ -13,17 +13,29 @@
     "strategy": 85,
     "morality": 40
   },
-  "weapons": ["gada"],
-  "defenses": ["Strong body"],
-  "special_abilities": ["Mace combat mastery"],
+  "weapons": [
+    "gada"
+  ],
+  "defenses": [
+    "Strong body"
+  ],
+  "special_abilities": [
+    "Mace combat mastery"
+  ],
   "notable_events": [
     "Initiated dice game",
     "Fought Bhima"
   ],
   "relationships": [
-    { "name": "Karna", "relation": "ally" }
+    {
+      "name": "Karna",
+      "relation": "ally"
+    }
   ],
-  "tags": ["villain", "prince"],
+  "tags": [
+    "villain",
+    "prince"
+  ],
   "rarity": "epic",
   "aura": "dark_ambition"
 }

@@ -1,11 +1,13 @@
 {
   "id": "dronacharya",
   "name": "Dronacharya",
-  "aliases": ["Drona"],
+  "aliases": [
+    "Drona"
+  ],
   "side": "Kaurava",
   "archetype": "Strategist",
   "description_short": "Teacher of both Pandavas and Kauravas.",
-  "description_long": "Drona was a master of warfare and trained the greatest warriors of the era.",
+  "description_long": "Dronacharya, son of the sage Bharadvaja, was the preeminent martial teacher of the Kuru princes and architect of a generation of legendary warriors. Though born a Brahmin, he mastered weapons and strategy to an unparalleled degree, training both Pandavas and Kauravas in advanced warfare. His personal bond with Arjuna and his complicated relationship with power, honor, and patronage shaped many key events before and during Kurukshetra. As commander of the Kaurava army, Drona's brilliance made him one of the war's deadliest forces, yet his downfall, brought about through psychological strategy tied to his love for Ashwatthama, revealed the human vulnerability beneath his formidable discipline.",
   "attributes": {
     "strength": 85,
     "skill": 92,
@@ -15,15 +17,22 @@
   },
   "weapons": [],
   "defenses": [],
-  "special_abilities": ["Weapon mastery"],
+  "special_abilities": [
+    "Weapon mastery"
+  ],
   "notable_events": [
     "Trained Arjuna",
     "Killed during war"
   ],
   "relationships": [
-    { "name": "Ashwatthama", "relation": "family" }
+    {
+      "name": "Ashwatthama",
+      "relation": "family"
+    }
   ],
-  "tags": ["guru"],
+  "tags": [
+    "guru"
+  ],
   "rarity": "epic",
   "aura": "disciplined_mind"
 }

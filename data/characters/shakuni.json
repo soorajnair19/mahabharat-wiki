@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Strategist",
   "description_short": "Master manipulator behind the war.",
-  "description_long": "Shakuni orchestrated the downfall of the Pandavas through deceit and cunning.",
+  "description_long": "Shakuni, prince of Gandhara and maternal uncle of the Kauravas, was the chief political manipulator behind Duryodhana's rise and the Pandavas' dispossession. Gifted in deception, psychological warfare, and court intrigue, he weaponized the dice game to strip Yudhishthira of kingdom, freedom, and dignity, setting in motion the irreversible breakdown of Kuru unity. Unlike frontline commanders, Shakuni's power lay in strategy without honor, exploiting weaknesses in both law and character. His long campaign of provocation made him one of the epic's principal agents of adharma, and his eventual death reflected the collapse of the very machinations he had engineered.",
   "attributes": {
     "strength": 50,
     "skill": 60,
@@ -15,15 +15,23 @@
   },
   "weapons": [],
   "defenses": [],
-  "special_abilities": ["Manipulation", "Loaded dice"],
+  "special_abilities": [
+    "Manipulation",
+    "Loaded dice"
+  ],
   "notable_events": [
     "Rigged dice game",
     "Instigated conflict"
   ],
   "relationships": [
-    { "name": "Duryodhana", "relation": "ally" }
+    {
+      "name": "Duryodhana",
+      "relation": "ally"
+    }
   ],
-  "tags": ["manipulator"],
+  "tags": [
+    "manipulator"
+  ],
   "rarity": "epic",
   "aura": "chaos_mind"
 }

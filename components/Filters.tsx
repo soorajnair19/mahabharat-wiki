@@ -75,8 +75,8 @@ const WEAPON_TYPE_OPTIONS: FilterOption[] = [
 ];
 
 const SORT_OPTIONS: FilterOption[] = [
-  { value: "", label: "Default" },
   { value: "power_desc", label: "Power Index (High to Low)" },
+  { value: "alpha_asc", label: "Alphabetically (A-Z)" },
 ];
 
 interface CustomSelectProps {

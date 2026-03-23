@@ -13,7 +13,7 @@ import { calculatePowerIndex, getPowerIndexTier } from "@/lib/powerIndex";
 export default function CharactersPage() {
   const characters = useMemo(() => getAllCharacters(), []);
   const [sideFilter, setSideFilter] = useState("");
-  const [sortFilter, setSortFilter] = useState("");
+  const [sortFilter, setSortFilter] = useState("power_desc");
   const [rarityFilter, setRarityFilter] = useState("");
   const [archetypeFilter, setArchetypeFilter] = useState("");
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(
@@ -30,12 +30,12 @@ export default function CharactersPage() {
   }, [characters, sideFilter, rarityFilter, archetypeFilter]);
 
   const sortedCharacters = useMemo(() => {
-    if (sortFilter !== "power_desc") {
-      return filteredCharacters;
+    if (sortFilter === "alpha_asc") {
+      return [...filteredCharacters].sort((a, b) =>
+        a.name.localeCompare(b.name)
+      );
     }
-    return [...filteredCharacters].sort(
-      (a, b) => calculatePowerIndex(b) - calculatePowerIndex(a)
-    );
+    return [...filteredCharacters].sort((a, b) => calculatePowerIndex(b) - calculatePowerIndex(a));
   }, [filteredCharacters, sortFilter]);
 
   return (

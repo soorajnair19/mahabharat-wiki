@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Sage",
   "description_short": "Grand patriarch and undefeated warrior.",
-  "description_long": "Bhishma was bound by his vow and fought for the Kauravas despite knowing the righteousness of the Pandavas.",
+  "description_long": "Bhishma, born Devavrata, was the grand patriarch of the Kuru dynasty and one of the most revered warriors of his age. His terrible vow of lifelong celibacy and renunciation of the throne, taken to secure his father's happiness, earned him the name 'Bhishma' and set the tone for his life of duty above self. Unmatched in statecraft, archery, and battlefield command, he served as guardian of Hastinapura across generations. Yet his unwavering commitment to the Kuru throne bound him to fight for the Kauravas despite recognizing the moral legitimacy of the Pandavas, and his fall on the bed of arrows became a profound meditation on duty, loyalty, and the burden of vows.",
   "attributes": {
     "strength": 95,
     "skill": 95,
@@ -14,16 +14,26 @@
     "morality": 95
   },
   "weapons": [],
-  "defenses": ["Iccha mrityu"],
-  "special_abilities": ["Cannot die at will"],
+  "defenses": [
+    "Iccha mrityu"
+  ],
+  "special_abilities": [
+    "Cannot die at will"
+  ],
   "notable_events": [
     "Took vow of celibacy",
     "Fell on bed of arrows"
   ],
   "relationships": [
-    { "name": "Kuru dynasty", "relation": "family" }
+    {
+      "name": "Kuru dynasty",
+      "relation": "family"
+    }
   ],
-  "tags": ["legend", "vow"],
+  "tags": [
+    "legend",
+    "vow"
+  ],
   "rarity": "legendary",
   "aura": "eternal_oath"
 }

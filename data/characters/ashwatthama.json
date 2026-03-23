@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Warrior",
   "description_short": "Immortal warrior cursed after the war.",
-  "description_long": "Son of Drona, Ashwatthama unleashed the Brahmastra and was cursed to immortality.",
+  "description_long": "Ashwatthama, son of Dronacharya, was born into poverty yet carried the pride of a Brahmin-warrior lineage and immense martial potential. Deeply devoted to his father and fiercely loyal to the Kaurava cause, he developed into a formidable fighter, skilled in celestial weapons and battlefield strategy. After Drona's death, grief and rage drove him into an increasingly ruthless path, culminating in his night raid on the Pandava camp and the unleashing of the Brahmastra. For his transgressions, he was cursed to wander the earth in suffering and immortality, making him one of the epic's most tragic figures: powerful, gifted, and ultimately consumed by vengeance.",
   "attributes": {
     "strength": 90,
     "skill": 88,
@@ -13,17 +13,29 @@
     "strategy": 80,
     "morality": 30
   },
-  "weapons": ["brahmastra"],
-  "defenses": ["Immortality curse"],
-  "special_abilities": ["Night massacre"],
+  "weapons": [
+    "brahmastra"
+  ],
+  "defenses": [
+    "Immortality curse"
+  ],
+  "special_abilities": [
+    "Night massacre"
+  ],
   "notable_events": [
     "Killed Pandava sons",
     "Cursed by Krishna"
   ],
   "relationships": [
-    { "name": "Dronacharya", "relation": "family" }
+    {
+      "name": "Dronacharya",
+      "relation": "family"
+    }
   ],
-  "tags": ["immortal", "cursed"],
+  "tags": [
+    "immortal",
+    "cursed"
+  ],
   "rarity": "legendary",
   "aura": "eternal_wrath",
   "divine": true

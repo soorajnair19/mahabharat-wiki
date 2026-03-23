@@ -5,7 +5,7 @@
   "side": "Pandava",
   "archetype": "Warrior",
   "description_short": "Rakshasa warrior with immense magical powers.",
-  "description_long": "Son of Bhima, Ghatotkacha used his mystical abilities to dominate night battles and played a crucial role in weakening Karna.",
+  "description_long": "Ghatotkacha, son of Bhima and the rakshasi Hidimbi, brought supernatural force and unconventional warfare to the Pandava side. Towering in power and command of illusion, he was especially devastating in night combat, where his shape-shifting and mystical assaults disrupted even veteran Kaurava formations. During the later stages of the war, his relentless pressure forced Karna to deploy the divine Shakti weapon that had been reserved for Arjuna. Ghatotkacha's sacrificial death thus became strategically decisive: by drawing out Karna's greatest advantage, he protected Arjuna and shifted the balance of the war at a critical moment.",
   "attributes": {
     "strength": 92,
     "skill": 85,
@@ -14,16 +14,27 @@
     "morality": 85
   },
   "weapons": [],
-  "defenses": ["Shape shifting"],
-  "special_abilities": ["Illusions", "Night warfare dominance"],
+  "defenses": [
+    "Shape shifting"
+  ],
+  "special_abilities": [
+    "Illusions",
+    "Night warfare dominance"
+  ],
   "notable_events": [
     "Forced Karna to use Vasavi Shakti",
     "Died in Kurukshetra war"
   ],
   "relationships": [
-    { "name": "Bhima", "relation": "family" }
+    {
+      "name": "Bhima",
+      "relation": "family"
+    }
   ],
-  "tags": ["rakshasa", "magic"],
+  "tags": [
+    "rakshasa",
+    "magic"
+  ],
   "rarity": "epic",
   "aura": "dark_energy"
 }

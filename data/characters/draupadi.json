@@ -1,11 +1,13 @@
 {
   "id": "draupadi",
   "name": "Draupadi",
-  "aliases": ["Panchali"],
+  "aliases": [
+    "Panchali"
+  ],
   "side": "Pandava",
   "archetype": "Support",
   "description_short": "Queen of the Pandavas and central figure in the epic.",
-  "description_long": "Draupadi, wife of the five Pandavas, played a crucial role in shaping the course of the Mahabharata through her strength and resilience.",
+  "description_long": "Draupadi, born of sacrificial fire as the princess of Panchala, is one of the moral and emotional pillars of the Mahabharata. Married to the five Pandavas, she navigated an extraordinary political life marked by dignity, intelligence, and fierce self-respect. Her humiliation in the Kuru court after the dice game exposed the ethical collapse of the ruling order and became one of the central catalysts for the great war. Throughout exile and conflict she remained resolute, urging justice without surrendering to despair, and her voice consistently challenged kings, elders, and warriors to account for dharma beyond convenience.",
   "attributes": {
     "strength": 55,
     "skill": 60,
@@ -14,17 +16,31 @@
     "morality": 92
   },
   "weapons": [],
-  "defenses": ["Divine protection (Krishna)"],
-  "special_abilities": ["Unbreakable will", "Influence on key events"],
+  "defenses": [
+    "Divine protection (Krishna)"
+  ],
+  "special_abilities": [
+    "Unbreakable will",
+    "Influence on key events"
+  ],
   "notable_events": [
     "Draupadi vastraharan",
     "Marriage to five Pandavas"
   ],
   "relationships": [
-    { "name": "Pandavas", "relation": "family" },
-    { "name": "Krishna", "relation": "ally" }
+    {
+      "name": "Pandavas",
+      "relation": "family"
+    },
+    {
+      "name": "Krishna",
+      "relation": "ally"
+    }
   ],
-  "tags": ["queen", "resilience"],
+  "tags": [
+    "queen",
+    "resilience"
+  ],
   "rarity": "legendary",
   "aura": "sacred_fire"
 }

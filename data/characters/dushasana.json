@@ -5,7 +5,7 @@
   "side": "Kaurava",
   "archetype": "Warrior",
   "description_short": "Brother of Duryodhana known for cruelty.",
-  "description_long": "Dushasana played a key role in the humiliation of Draupadi and was later killed by Bhima.",
+  "description_long": "Dushasana, younger brother and chief enforcer of Duryodhana, represented the aggressive face of Kaurava arrogance. He is remembered most for dragging Draupadi into the royal court during the dice-game crisis and attempting to disrobe her, an act that became a lasting symbol of adharma and personal dishonor. In battle he fought with ferocity and unwavering loyalty to his elder brother, but his reputation remained defined by cruelty rather than statesmanship or heroism. His death at Bhima's hands, in fulfillment of a solemn vow, carried deep narrative weight as retribution for the outrage committed in Hastinapura's assembly.",
   "attributes": {
     "strength": 80,
     "skill": 75,
@@ -21,9 +21,14 @@
     "Killed by Bhima"
   ],
   "relationships": [
-    { "name": "Duryodhana", "relation": "family" }
+    {
+      "name": "Duryodhana",
+      "relation": "family"
+    }
   ],
-  "tags": ["cruel"],
+  "tags": [
+    "cruel"
+  ],
   "rarity": "rare",
   "aura": "bloodlust"
 }
