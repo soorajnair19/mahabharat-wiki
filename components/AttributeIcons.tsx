@@ -77,7 +77,7 @@ export function CharacterAttributeIcon({
   if (valueOnly) {
     return (
       <span
-        className={`inline-flex items-center rounded border border-stone-600/50 bg-stone-700/30 text-stone-300 ${
+        className={`inline-flex items-center rounded border border-white/20 bg-black/10 text-stone-100 backdrop-blur-[1px] ${
           isSm
             ? "gap-1 px-1.5 py-0.5 text-xs leading-tight"
             : "gap-1.5 px-2 py-1 text-sm"
@@ -85,7 +85,7 @@ export function CharacterAttributeIcon({
         title={`${label}: ${value}`}
       >
         <Icon
-          className={`shrink-0 text-stone-400 ${isSm ? "h-3 w-3" : "h-3.5 w-3.5"}`}
+          className={`shrink-0 text-white/80 ${isSm ? "h-3 w-3" : "h-3.5 w-3.5"}`}
         />
         <span className={isSm ? "font-mono tabular-nums" : ""}>{value}</span>
       </span>
@@ -162,13 +162,13 @@ export function WeaponStatIcon({
   if (valueOnly) {
     return (
       <span
-        className={`inline-flex items-center gap-1.5 rounded border border-stone-600/50 bg-stone-700/30 text-stone-300 capitalize ${
+        className={`inline-flex items-center gap-1.5 rounded border border-white/20 bg-black/10 text-stone-100 capitalize backdrop-blur-[1px] ${
           isSm ? "px-1.5 py-0.5 text-xs" : "px-2 py-1 text-sm"
         }`}
         title={label}
       >
         <Icon
-          className={`shrink-0 text-stone-400 ${isSm ? "h-3 w-3" : "h-3.5 w-3.5"}`}
+          className={`shrink-0 text-white/80 ${isSm ? "h-3 w-3" : "h-3.5 w-3.5"}`}
         />
         <span className={isSm ? "font-mono tabular-nums" : ""}>{value}</span>
       </span>
